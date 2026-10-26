@@ -5,7 +5,7 @@
 
 <!-- template-only: the template's own banner, site-bootstrapper cuts this block out of a new site. -->
 <p align="center">
-	<a href="https://github.com/aimuzov/infra-site-template"><img src="https://raw.githubusercontent.com/aimuzov/.github/main/profile/assets/infra-site-template.en.jpg" alt="infra-site-template: a starter for every new site" width="100%"></a>
+	<a href="https://github.com/aimuzov/infra-site-template"><img src="https://raw.githubusercontent.com/aimuzov/aimuzov/main/assets/infra-site-template.en.jpg" alt="infra-site-template: a starter for every new site" width="100%"></a>
 </p>
 <!-- /template-only -->
 

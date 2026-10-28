@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/aimuzov/infra-site-template/compare/v1.3.1...v1.3.2) (2026-10-28)
+
+
+### Bug Fixes
+
+* **deps:** move to infra-site-kit 5.9.1 with the strict Sentry events ([5a0dc79](https://github.com/aimuzov/infra-site-template/commit/5a0dc7966e3cea3e67fca006c98519a66c6ef704))
+* **deps:** move to infra-site-kit 5.9.1 with the strict Sentry events ([4904bb0](https://github.com/aimuzov/infra-site-template/commit/4904bb09d62dbaa2eedb460b6ab766515dfd3d40))
+
 ## [1.3.1](https://github.com/aimuzov/infra-site-template/compare/v1.3.0...v1.3.1) (2026-10-27)
 
 

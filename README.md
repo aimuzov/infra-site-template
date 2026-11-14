@@ -105,3 +105,5 @@ To roll back fast, run Release by hand with the previous tag: `gh workflow run d
 ## License
 
 The code is licensed under [MIT](LICENSE). Site content (texts, images, names and contacts) is not covered by it: all rights reserved.
+
+Production containers have explicit RAM and total RAM-plus-swap limits. CI validates every service against the shared infra-server policy at https://github.com/aimuzov/infra-server/blob/main/docs/resource-limits.md. Choose any increased budget from measured peaks and keep the Node heap below the container limit.

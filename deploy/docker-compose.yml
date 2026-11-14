@@ -18,6 +18,8 @@ services:
       secrets: [env]
     image: __PROJECT__
     container_name: __PROJECT__
+    mem_limit: 64m
+    memswap_limit: 64m
     restart: unless-stopped
     networks:
       - edge
@@ -33,6 +35,9 @@ services:
     restart: unless-stopped
     env_file: ../.env
     mem_limit: 128m
+    memswap_limit: 160m
+    environment:
+      NODE_OPTIONS: --max-old-space-size=64
     healthcheck:
       test: ['CMD', 'wget', '-qO-', 'http://127.0.0.1:8787/api/health']
       interval: 30s
